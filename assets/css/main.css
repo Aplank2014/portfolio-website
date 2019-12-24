@@ -41,7 +41,7 @@ blockquote, q {
 	quotes: none;
 }
 
-	blockquote:before, blockquote:after, q:before, q:after {
+blockquote:before, blockquote:after, q:before, q:after {
 		content: '';
 		content: none;
 	}
@@ -4687,3 +4687,15 @@ input, select, textarea {
 		}
 
 	}
+	 #intro {
+		background-image: url("/images/Farmington\ Area.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	 }
+	 #Projectheader {
+		background-image: url("/images/Farmington\ Area.jpg");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	 }
