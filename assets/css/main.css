@@ -4688,14 +4688,9 @@ input, select, textarea {
 
 	}
 	 #intro {
-		background-image: url("/images/Farmington\ Area.jpg");
+		background-image: url("/images/FarmingtonArea.jpg");
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 	 }
-	 #Projectheader {
-		background-image: url("/images/Farmington\ Area.jpg");
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-	 }
+	 
