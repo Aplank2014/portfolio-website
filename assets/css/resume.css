@@ -1,0 +1,209 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: Georgia;
+  color: black;
+}
+body .container {
+  padding: 10px 80px;
+  margin: 80px auto;
+  background: #d2b48c;
+  border: solid #666;
+  border-width: 8px 0 2px 0;
+}
+@media (max-width: 500px) {
+  body .container {
+    width: 90%;
+    padding: 20px;
+    flex-direction: column;
+  }
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 500px) {
+  header nav {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+h2 {
+  font-size: 160%;
+}
+h3 {
+  font-size: 135%;
+}
+h3 header h2 .main {
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.skillsList {
+  padding-left: 2%;
+  padding-top: 2%;
+  column-count: 2;
+}
+@media (max-width: 500px) {
+  .skillsList {
+    column-count: 1;
+  }
+}
+.mainSkillsList {
+  display: block;
+  margin-bottom: 0.3rem;
+}
+p {
+  line-spacing: 2rem;
+}
+#footer {
+  padding: 1em 0 5em 0;
+  font-size: 92%;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+#footer p {
+  margin-bottom: 0;
+  text-align: center;
+}
